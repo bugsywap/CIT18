@@ -196,4 +196,105 @@
     font-weight: 100;
     line-height: 1.5;
   }
+  #skills {
+    width: 100%;
+    text-align: right;
+    color: white;
+    background-image: url(img/skill.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .skills-h1 {
+    padding-right: 100px;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  #skills h1 {
+    color: #eadbc4;
+    font-size: 80px;
+  }
+  
+  .skills-container {
+    padding-right: 100px;
+    display: inline-block;
+    justify-content: right;
+  }
+  
+  #skills p {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 30px;
+    
+  }
+  #projects{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #302f2f;
+  
+  }
+  #projects h1 {
+    color: #7eabae;
+    font-size: 80px;
+  }
+  #projects h2 {
+    color: #eadbc4;
+    font-size: 50px;
+  }
+  #projects img{
+    width: 500px;
+    margin: 10px 10px;
+  }
+  #contact {
+    width: 100%;
+    text-align: left;
+    color: white;
+    background-image: url(img/phone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .contact-h1 {
+    padding-left: 100px;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  #contact h1 {
+    color: #eadbc4;
+    font-size: 80px;
+  }
+  
+  .contact-container {
+    padding-left: 100px;
+    display: inline-block;
+    justify-content: right;
+  }
+  
+  #contact p {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 30px;
+  }
+  footer {
+    background-color: #302f2f;
+    color: #fff;
+    text-align: center;
+    padding: 0.1em;
+  }
   
