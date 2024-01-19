@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script defer src="script.js"></script>
     <title>CIT18 - Resume</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="navbar">
       <div class="nav">
-        <img src="logo.png" class="logo" />
+        <img src="img/logo.png" class="logo" />
         <ul>
           <li><a href="#about">About Me</a></li>
           <li><a href="#experience">Experiences</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#project">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -23,6 +25,7 @@
     <section id="about">
       <h1>ABOUT ME</h1>
       <h2>GABRIEL ALBERT P. OLLERO</h2>
+      <div class="type">and I'm a <span class="typing"></span></div>
       <p>
         He is a freelancer and a web developer student currently enrolled in the
         University of the Cordilleras in Baguio City, Philippines. He has a
@@ -87,40 +90,47 @@
       </div>
     </section>
     <section id="projects">
-      <div class="skills-h1">
-          <h1>PROJECTS</h1>
+        <div class="skills-h1">
+            <h1>PROJECTS</h1>
+          </div>
+        <ul>
+            <li>
+                <h2>Mascots</h2>
+                <img src="img/bee.png" alt="buzz" class="bee">
+                <img src="img/fox.png" alt="woof" class="fox">
+                <img src="img/lama.png" alt="meh" class="llama">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h2>Designs</h2>
+                <img src="img/6410.png" alt="6410" class="6410">
+                <img src="img/pebble.png" alt="pebble" class="cp">
+                <img src="img/sage.png" alt="sage" class="sage">
+                <img src="img/ink.png" alt="ink" class="ink">
+                <img src="img/vape.png" alt="vape" class="vape">
+                <img src="img/nt.png" alt="nt" class="nt">
+            </li>
+    </section>
+    <section id="contact">
+        <div class="contact-h1">
+            <h1>CONTACT</h1>
         </div>
-      <ul>
-          <li>
-              <h2>Mascots</h2>
-              <img src="img/bee.png" alt="buzz" class="bee">
-              <img src="img/fox.png" alt="woof" class="fox">
-              <img src="img/lama.png" alt="meh" class="llama">
-          </li>
-      </ul>
-      <ul>
-          <li>
-              <h2>Designs</h2>
-              <img src="img/6410.png" alt="6410" class="6410">
-              <img src="img/pebble.png" alt="pebble" class="cp">
-              <img src="img/sage.png" alt="sage" class="sage">
-              <img src="img/ink.png" alt="ink" class="ink">
-              <img src="img/vape.png" alt="vape" class="vape">
-              <img src="img/nt.png" alt="nt" class="nt">
-          </li>
-  </section>
-  <section id="contact">
-      <div class="contact-h1">
-          <h1>CONTACT</h1>
-      </div>
-      <div class="contact-container">
-      <p>Email: gpo4700@students.uc-bcf.edu.ph</p>
-      <p>Facebook: facebook.com/orpheuuuus</p>
-      <p>GitHub: github.com/bugsywap</p>
-      </div>
-  </section>
-  <footer>
-      <p>&copy; 2024 Gabriel Albert P. Ollero. CIT18.</p>
-  </footer>
-</body>
+        <div class="contact-container">
+        <p>Email: gpo4700@students.uc-bcf.edu.ph</p>
+        <p>Facebook: facebook.com/orpheuuuus</p>
+        <p>GitHub: github.com/bugsywap</p>
+        <button><a href="https://drive-data-export.usercontent.google.com/download/882jcej8om6ab2hv
+            qlmp4i7mhr79rd54/fqs3cntubnla6f023ofec2qov2s3dq6k/1705675500000/d9049116-0466-4041-8f12-
+            0552d96c4680/105258382117354467645/ADt3v-PZVHB72e9lp3FWWz0QALcZ_3XJG7OMv1P1gYKlsVOIeJS9el
+            1xGo8uBUPMcnS_0YxXdrtP0VH8Gj_P9eZJH_UQ3ZaKDNllJGPih77ebrjhhvuHd7LPqlj1KUhlRJocnVltbX4_SniE
+            8a_GX70ftO8RXCPZRkuQf1sBL8iOQxCPZqfKIl2s-qrKEMMnoG-kjBEyD3cJBhmL9lnKKEsXjY4nLLSmwRsDUSBn2V8
+            a8V8ulOX_vtyoMPBwBIzRu8B0k9_YSj4r0TUDKxZ9G07GKjra49CjjkDiwjw--COFPb2WftZ-C-O8bbTl40dvqXj8X8
+            oM54ZvUg-2VoRK_u-x9pU8TP6jMA==?j=d9049116-0466-4041-8f12-0552d96c4680&user=616396253393&i=0&authuser=2">Download CV</a></button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gabriel Albert P. Ollero. CIT18.</p>
+    </footer>
+  </body>
 </html>
