@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 .container {
-  background: #302f2f;
+  background: #443434;
   position: sticky;
   top: 0;
 }
@@ -142,7 +142,7 @@
 }
 
 #experience h3 {
-  color: #302f2f;
+  color: #443434;
   font-size: 36px;
 }
 
@@ -248,7 +248,7 @@
 #projects {
   padding-top: 20px;
   text-align: center;
-  background-color: #302f2f;
+  background-color: #443434;
 }
 #projects h1 {
   color: #7eabae;
@@ -301,7 +301,7 @@
 }
 #contact button {
   background-color: transparent;
-  border: 0.125em solid #1a1a1a;
+  border: 0.125em solid #443434;
   border-radius: 0.9375em;
   box-sizing: border-box;
   color: #3b3b3b;
@@ -326,7 +326,7 @@
 
 #contact button:hover {
   color: #fff;
-  background-color: #1a1a1a;
+  background-color: #443434;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -340,7 +340,7 @@
   color: white;
 }
 footer {
-  background-color: #302f2f;
+  background-color: #443434;
   color: #fff;
   text-align: center;
   padding: 0.1em;
